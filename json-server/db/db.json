@@ -1,0 +1,328 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "teamName": "The Avengers"
+    },
+    {
+      "teamName": "The Defenders",
+      "id": 2
+    },
+    {
+      "teamName": "Guardians of the Galaxy",
+      "id": 3
+    },
+    {
+      "teamName": "The Coolest Kids in Town",
+      "id": 4
+    },
+    {
+      "teamName": "The Testing Team",
+      "id": 5
+    },
+    {
+      "teamName": "Suey",
+      "id": 6
+    },
+    {
+      "teamName": "New Team Test",
+      "id": 7
+    },
+    {
+      "teamName": "The Headband Homies",
+      "id": 8
+    },
+    {
+      "teamName": "AWWW KIMANNNNNNE",
+      "id": 9
+    },
+    {
+      "teamName": "Joan's Team",
+      "id": 10
+    },
+    {
+      "teamName": "Wolverines",
+      "id": 11
+    }
+  ],
+  "teamMember": [
+    {
+      "userId": "Guardians of the Galaxy",
+      "heroId": 1009148,
+      "name": "Absorbing Man",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/1/b0/5269678709fb7.jpg",
+      "id": 7
+    },
+    {
+      "userId": "Guardians of the Galaxy",
+      "heroId": 1009146,
+      "name": "Abomination (Emil Blonsky)",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/4ce18691cbf04.jpg",
+      "id": 8
+    },
+    {
+      "userId": null,
+      "heroId": 1009149,
+      "name": "Abyss",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/535feab462a64.jpg",
+      "description": "",
+      "id": 17
+    },
+    {
+      "userId": null,
+      "heroId": 1017100,
+      "name": "A-Bomb (HAS)",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg",
+      "description": "Rick Jones has been Hulk's best bud since day one, but now he's more than a friend...he's a teammate! Transformed by a Gamma energy explosion, A-Bomb's thick, armored skin is just as strong and powerful as it is blue. And when he curls into action, he uses it like a giant bowling ball of destruction! ",
+      "id": 18
+    },
+    {
+      "userId": "The Coolest Kids in Town",
+      "heroId": 1009148,
+      "name": "Absorbing Man",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/1/b0/5269678709fb7.jpg",
+      "description": "",
+      "id": 26
+    },
+    {
+      "userId": "The Coolest Kids in Town",
+      "heroId": 1010354,
+      "name": "Adam Warlock",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/a/f0/5202887448860.jpg",
+      "description": "Adam Warlock is an artificially created human who was born in a cocoon at a scientific complex called The Beehive.",
+      "id": 27
+    },
+    {
+      "userId": "The Coolest Kids in Town",
+      "heroId": 1010836,
+      "name": "Alex Power",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/4ce5a385a2e82.jpg",
+      "description": "",
+      "id": 28
+    },
+    {
+      "userId": "The Coolest Kids in Town",
+      "heroId": 1009156,
+      "name": "Apocalypse",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/f/e0/526166076a1d0.jpg",
+      "description": "",
+      "id": 29
+    },
+    {
+      "userId": "The Coolest Kids in Town",
+      "heroId": 1017100,
+      "name": "A-Bomb (HAS)",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg",
+      "description": "Rick Jones has been Hulk's best bud since day one, but now he's more than a friend...he's a teammate! Transformed by a Gamma energy explosion, A-Bomb's thick, armored skin is just as strong and powerful as it is blue. And when he curls into action, he uses it like a giant bowling ball of destruction! ",
+      "id": 30
+    },
+    {
+      "userId": "The Testing Team",
+      "heroId": 1010829,
+      "name": "Bengal",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/5269523ee6c03.jpg",
+      "description": "",
+      "id": 37
+    },
+    {
+      "userId": "The Testing Team",
+      "heroId": 1009219,
+      "name": "Cannonball",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/5/c0/4c00407fb91b5.jpg",
+      "description": "",
+      "id": 38
+    },
+    {
+      "userId": "The Testing Team",
+      "heroId": 1009182,
+      "name": "Bishop",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/52602f4b42d98.jpg",
+      "description": "",
+      "id": 39
+    },
+    {
+      "userId": "The Testing Team",
+      "heroId": 1009195,
+      "name": "Blastaar",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/f/e0/52695222c22e0.jpg",
+      "description": "",
+      "id": 40
+    },
+    {
+      "userId": "The Testing Team",
+      "heroId": 1009214,
+      "name": "Cable",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/90/526165df2b584.jpg",
+      "description": "",
+      "id": 41
+    },
+    {
+      "userId": "The Testing Team",
+      "heroId": 1009209,
+      "name": "Brotherhood of Evil Mutants",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/30/539f01b910d91.jpg",
+      "description": "",
+      "id": 42
+    },
+    {
+      "userId": "The Testing Team",
+      "heroId": 1011038,
+      "name": "Bug",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/8/30/4c00323e50dda.jpg",
+      "description": "",
+      "id": 43
+    },
+    {
+      "userId": "The Testing Team",
+      "heroId": 1010338,
+      "name": "Captain Marvel (Carol Danvers)",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/6/80/5269608c1be7a.jpg",
+      "description": "",
+      "id": 44
+    },
+    {
+      "userId": "The Avengers",
+      "heroId": 1009214,
+      "name": "Cable",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/90/526165df2b584.jpg",
+      "description": "",
+      "id": 46
+    },
+    {
+      "userId": "The Avengers",
+      "heroId": 1009180,
+      "name": "Beta-Ray Bill",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/90/52602f3e88d25.jpg",
+      "description": "",
+      "id": 48
+    },
+    {
+      "userId": "The Avengers",
+      "heroId": 1009187,
+      "name": "Black Panther",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/6/60/5261a80a67e7d.jpg",
+      "description": "",
+      "id": 49
+    },
+    {
+      "userId": "The Avengers",
+      "heroId": 1011095,
+      "name": "Captain Marvel (Monica Rambeau)",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/9/00/4c0030bee8c86.jpg",
+      "description": "",
+      "id": 50
+    },
+    {
+      "name": "Garnet",
+      "image": "https://drawcentral.com/wp-content/uploads/2019/08/How-To-Draw-Garnet-Steven-Universe-12-1170x760.jpg",
+      "description": "She's a queen",
+      "userId": "The Avengers",
+      "heroId": "3e03a-8fe-080-28d5-53c551ca5b5",
+      "id": 51
+    },
+    {
+      "userId": "The Avengers",
+      "heroId": 1011346,
+      "name": "Ben Reilly",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/2/20/4ce5a6abaea69.jpg",
+      "description": "Ben Reilly was the most genetically stable of the many clones of Spider-Man created by Professor Miles Warren, the Jackal.",
+      "id": 52
+    },
+    {
+      "userId": "The Avengers",
+      "heroId": 1009178,
+      "name": "Beef",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/f/60/4c002e0305708.gif",
+      "description": "",
+      "id": 53
+    },
+    {
+      "userId": "The Avengers",
+      "heroId": 1009180,
+      "name": "Beta-Ray Bill",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/90/52602f3e88d25.jpg",
+      "description": "",
+      "id": 54
+    },
+    {
+      "userId": "New Team Test",
+      "heroId": 1017100,
+      "name": "A-Bomb (HAS)",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg",
+      "description": "Rick Jones has been Hulk's best bud since day one, but now he's more than a friend...he's a teammate! Transformed by a Gamma energy explosion, A-Bomb's thick, armored skin is just as strong and powerful as it is blue. And when he curls into action, he uses it like a giant bowling ball of destruction! ",
+      "id": 56
+    },
+    {
+      "userId": "The Headband Homies",
+      "heroId": 1010354,
+      "name": "Adam Warlock",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/a/f0/5202887448860.jpg",
+      "description": "Adam Warlock is an artificially created human who was born in a cocoon at a scientific complex called The Beehive.",
+      "id": 57
+    },
+    {
+      "userId": "The Headband Homies",
+      "heroId": 1009146,
+      "name": "Abomination (Emil Blonsky)",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/4ce18691cbf04.jpg",
+      "description": "Formerly known as Emil Blonsky, a spy of Soviet Yugoslavian origin working for the KGB, the Abomination gained his powers after receiving a dose of gamma radiation similar to that which transformed Bruce Banner into the incredible Hulk.",
+      "id": 58
+    },
+    {
+      "name": "Garnet",
+      "image": "https://drawcentral.com/wp-content/uploads/2019/08/How-To-Draw-Garnet-Steven-Universe-12-1170x760.jpg",
+      "description": "She's a kween",
+      "userId": "The Headband Homies",
+      "heroId": "ef5b3e2-a0eb-3d3c-4e05-001ead6c4a",
+      "id": 59
+    },
+    {
+      "userId": "Joan's Team",
+      "heroId": 1010354,
+      "name": "Adam Warlock",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/a/f0/5202887448860.jpg",
+      "description": "Adam Warlock is an artificially created human who was born in a cocoon at a scientific complex called The Beehive.",
+      "id": 60
+    },
+    {
+      "userId": "Joan's Team",
+      "heroId": 1009740,
+      "name": "Arnim Zola",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/8/b0/4c00393a4cb7c.jpg",
+      "description": "The frail, dwarfish Arnim Zola was born in 1930s Switzerland where he became the world's leading biochemist and genetic engineer.",
+      "id": 61
+    },
+    {
+      "userId": "Joan's Team",
+      "heroId": 1010908,
+      "name": "Beast (Ultimate)",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/5/d0/53176a9be110c.jpg",
+      "description": "",
+      "id": 62
+    },
+    {
+      "name": "Joan Calvert",
+      "image": "https://drawcentral.com/wp-content/uploads/2019/08/How-To-Draw-Garnet-Steven-Universe-12-1170x760.jpg",
+      "description": "She's super awesome",
+      "userId": "Joan's Team",
+      "heroId": "1472148-f4ab-0b28-bb16-e332241e124",
+      "id": 63
+    },
+    {
+      "userId": "Wolverines",
+      "heroId": 1009144,
+      "name": "A.I.M.",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/6/20/52602f21f29ec.jpg",
+      "description": "AIM is a terrorist organization bent on destroying the world.",
+      "id": 64
+    },
+    {
+      "userId": "Wolverines",
+      "heroId": 1009148,
+      "name": "Absorbing Man",
+      "image": "http://i.annihil.us/u/prod/marvel/i/mg/1/b0/5269678709fb7.jpg",
+      "description": "",
+      "id": 65
+    }
+  ]
+}

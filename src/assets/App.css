@@ -1,0 +1,321 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  scroll-behavior: smooth;
+  color:white;
+  
+}
+
+/* things in the Header */
+.header-container {
+  background: #131313;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+
+.header-left {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#header-logo {
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.navbar-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* font-size: 20px; */
+}
+
+.button {
+  font-size: 15px;
+
+}
+
+.navlinks {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  text-decoration: none;
+  height: 80%;
+  transition: all 0.3s ease;
+}
+
+.header-right {
+  /* width: 20%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.navbar-btn {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 0 1rem;
+  width: 100%;
+} 
+
+
+button {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-decoration: none;
+  padding: 10px 20px;
+  /* height: 100%;
+  width: 100%; */
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+ 
+/* Home Page */
+.HomeContainer, .teamPage {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+/* Things in the card  */
+.flex-card {
+  border: 1px solid black;
+  height: 300px;
+  position: relative;
+}
+
+#seletedMemberCard {
+  border: 1px solid black;
+  height: 400px;
+  position: relative;
+}
+
+.img-in-card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-info-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 10px;
+}
+
+.hero-name, .hero-location{
+ color:white;
+}
+
+.del-btn {
+  text-decoration: none;
+  padding: 5px 7px;
+  /* height: 100%;*/
+  width: 100px; 
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  color: #fff;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.flex-container {
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+
+#disselectBtnId {
+  display:none;
+}
+
+.black-font {
+  color: black
+}
+
+.blue-font {
+  color: blue
+}
+
+.recruitDetailsContainer {
+  background-color: black;
+}
+
+
+#hoverEffectDisabledId {
+  pointer-events: none;
+}
+
+.recruitDetailsContainer {
+  padding: 60px;
+  height: 100vh;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.detail-left-container {
+  /* width: 25vw; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; 
+  align-items: center; */
+}
+
+.detail-img {
+  width: 400px;
+  height: 90vh;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.btngroup {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.detail-btn {
+  width: 180px;
+}
+
+.detail-right-container {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  padding: 10px;
+}
+
+.comics-h2 {
+  margin-top: 50px;
+}
+
+.comics-container {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+
+}
+
+.comics-img {
+  width: 200px;
+  height: 300px;
+  object-fit: fit;
+  margin-left: 30px;
+}
+
+.next-btn {
+  margin-top: 30px;
+  float: right;
+}
+.back-btn {
+  margin-top: 30px;
+  float: left;
+}
+
+
+.detail-name {
+  margin-bottom: 30px;
+}
+
+.detail-description {
+  margin-bottom: 10px;
+}
+
+.home-h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.add-to-team-btn {
+  float: right;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.form-div {
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.back-btn-in-list {
+  float: left;
+  width: 100px;
+}
+
+.next-btn-in-list {
+  float: right;
+  width: 100px;
+}
+
+.sign-in-page {
+  background-color: black;
+}
+
+
+.navButton {
+  padding: 0.75rem;
+  border: none;
+  font: inherit;
+  font-weight: 600;
+  color: inherit;
+  cursor: pointer;
+  color: var(--primary);
+  background-color: var(--background);
+  border: 2px solid var(--dark-turquoise);
+  transition: background-color 0.2s;
+  line-height: 1;
+}
+
+.comic-page {
+  width: 720px;
+}
