@@ -53,7 +53,7 @@ function SignUp({ onNewProfileSubmit }) {
   const id = open ? 'simple-popover' : undefined;
 
   useEffect(() => {
-  fetch('http://localhost:3000/users')
+  fetch('http://localhost:3001/users')
   .then(res => res.json())
   .then(user => setAllUsers(user))
   }, [])
@@ -67,7 +67,7 @@ function SignUp({ onNewProfileSubmit }) {
     if (userMap.includes(newProfile)) {
       setAnchorEl(e.target);
     } else {
-      fetch('http://localhost:3000/users', {
+      fetch('http://localhost:3001/users', {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',

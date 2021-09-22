@@ -7,7 +7,7 @@ function Profile({ currentProfile, isLoggedIn }) {
 
   const onDisselectBtnClickInTeamPage = (disselectedHero) => {
     //Delete from database 
-    fetch(`http://localhost:3000/teamMember/${disselectedHero.id}`, {
+    fetch(`http://localhost:3001/teamMember/${disselectedHero.id}`, {
       method: 'DELETE',
       })
       .catch(error => console.error('Error:', error))
@@ -17,7 +17,7 @@ function Profile({ currentProfile, isLoggedIn }) {
   }
 
   useEffect(()=>{
-    fetch("http://localhost:3000/teamMember")
+    fetch("http://localhost:3001/teamMember")
 	  .then(res => res.json())
     .then(data => setProfileArray(data.filter(teamMember => teamMember.userId === currentProfile)) )
     .catch(error => console.error('Error:', error))

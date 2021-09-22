@@ -49,7 +49,7 @@ function App() {
   const onAddToProfileBtnClick = (apodSelectionArray) => {
     
     apodSelectionArray.map(apod => {
-      fetch("http://localhost:3000/teamMember", {
+      fetch("http://localhost:3001/teamMember", {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json'

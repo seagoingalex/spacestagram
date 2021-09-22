@@ -63,7 +63,7 @@ function SignIn({ onExistingProfileLogIn }) {
     const addedProfile = {
       profileName: enteredProfile
     }
-    fetch('http://localhost:3000/users')
+    fetch('http://localhost:3001/users')
     .then(response => response.json())
     .then(users => verifyProfile(e, users, addedProfile))  
   }

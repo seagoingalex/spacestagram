@@ -14,7 +14,7 @@ function ProfileDetails() {
     }
 
     useEffect(() => {
-      fetch(`http://localhost:3000/teamMember/${id}`)
+      fetch(`http://localhost:3001/teamMember/${id}`)
       .then((r) => r.json())
       .then((apod) => {
         setApod(apod);
@@ -23,7 +23,7 @@ function ProfileDetails() {
   }, [id]);
 
     const deselectClickHandler = () => {
-        fetch(`http://localhost:3000/teamMember/${id}`, {
+        fetch(`http://localhost:3001/teamMember/${id}`, {
             method: 'DELETE',
             headers: {
               "Content-Type":"application/json"
