@@ -46,13 +46,11 @@ function NasaDetails({ onApodSelection, isLoggedIn, setApodArray, apodArray, api
 
     if (!isLoaded) return <h2>Loading...</h2>;
 
-    const enlistClickHandler = (e, hero) => {
+    const enlistClickHandler = (e, apod) => {
       if(isLoggedIn) {
-      //add hero to the heroSelectionArray & make this herocard disappear from RecruitList
-      //callback fn defined on App.js
-      onApodSelection(hero)
-      console.log(hero)
-      setApodArray(apodArray.filter(individual => individual.id !== hero.id))
+      onApodSelection(apod)
+
+      setApodArray(apodArray.filter(individual => individual.id !== apod.id))
       //push the page back to the home page 
       history.push('/')  
       } else {

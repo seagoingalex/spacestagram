@@ -41,7 +41,6 @@ function App() {
       
     }
   }
-    //make this herocard disappear from RecruitList
     const apodArrayAfterSelect = apodArray.filter(apod=>apod.id !== selectedApod.id)
     setApodArray(apodArrayAfterSelect)
   }
@@ -64,7 +63,6 @@ function App() {
       })
       .catch(error => console.error('Error:', error))
     })    
-    // clear out heroSelectionArray 
     setApodSelectionArray([]);
     history.push("/")
     // Code is pushing to home for now, as pushing to team fails to render additions first
@@ -100,7 +98,6 @@ function App() {
       <Switch>
 
         <Route exact path="/" component={() => <Home apodArray={apodArray} 
-                                                    //  displayArray={displayArray}
                                                      nasaImage={nasaImage}
                                                      apodSelectionArray={apodSelectionArray} 
                                                      onAddToProfileBtnClick={onAddToProfileBtnClick}

@@ -7,6 +7,10 @@
     {
       "profileName": "Team Nic",
       "id": 13
+    },
+    {
+      "profileName": "Team Alex",
+      "id": 14
     }
   ],
   "teamMember": [
@@ -311,6 +315,38 @@
       "url": "https://apod.nasa.gov/apod/image/0909/teapotsirds_winfree.gif",
       "explanation": "Is this picture worth a thousand words?  According to the Holographic Principle, the most information you can get from this image is about 3 x 1065 bits for a normal sized computer monitor.  The Holographic Principle, yet unproven, states that there is a maximum amount of information content held by regions adjacent to any surface.  Therefore, counter-intuitively, the information content inside a room depends not on the volume of the room but on the area of the bounding walls.  The principle derives from the idea that the Planck length, the length scale where quantum mechanics begins to dominate classical gravity, is one side of an area that can hold only about one bit of information.  The limit was first postulated by physicist Gerard 't Hooft in 1993.  It can arise from generalizations from seemingly distant speculation that the information held by a black hole is determined not by its enclosed volume but by the surface area of its event horizon.  The term \"holographic\" arises from a hologram analogy where three-dimension images are created by projecting light though a flat screen.  Beware, other people looking at the above image may not claim to see 3 x 1065 bits -- they might claim to see a teapot.   digg_url = 'http://apod.nasa.gov/apod/ap090913.html'; digg_skin = 'compact';",
       "id": 68
+    },
+    {
+      "userId": "Team Alex",
+      "date": "2021-04-10",
+      "title": "Zodiacal Night",
+      "url": "https://apod.nasa.gov/apod/image/2104/ZodiacalNight1024.jpg",
+      "explanation": "An intense band of zodiacal light is captured in this serene mountain and night skyscape from April 7. The panoramic view was recorded after three hours of hiking from a vantage looking west after sunset across the Pyrenees in southern France. At 2838 meters altitude, Mont Valier is the tallest peak near center. In the sky above, the familiar stars of Orion and the northern winter Milky Way are approaching the rugged western horizon. At the shoulder of Orion, Betelgeuse is one of three bright yellowish celestial beacons. It forms a triangle with fellow red giant star Aldebaran located below Betelgeuse and to the right, and the red planet Mars. Mars shines just under the band of the Milky Way, still immersed in the bright zodiacal light.   Tournament Earth: Vote for your favorite image from NASA's Earth Observatory",
+      "id": 69
+    },
+    {
+      "userId": "Team Alex",
+      "date": "2000-03-26",
+      "title": "Venus' Once Molten Surface",
+      "url": "https://apod.nasa.gov/apod/image/0003/venus4_mag.jpg",
+      "explanation": "If you could look at Venus with radar eyes - this is what you might see. This computer reconstruction of the surface of Venus was created from data from the Magellan spacecraft.  Magellan orbited Venus and used radar to map our neighboring planet's surface between 1990 and 1994. Magellan found many interesting surface features, including the large circular domes, typically 25-kilometers across, that are depicted above.  Volcanism is thought to have created the domes, although the precise mechanism remains unknown. Venus' surface is so hot and hostile that no surface probe has lasted more than a few minutes.",
+      "id": 70
+    },
+    {
+      "userId": "Team Alex",
+      "date": "2017-05-28",
+      "title": "Collapse in Hebes Chasma on Mars",
+      "url": "https://apod.nasa.gov/apod/image/1705/HebesChasma_esa_960.jpg",
+      "explanation": "What's happened in Hebes Chasma on Mars? Hebes Chasma is a depression just north of the enormous Valles Marineris canyon.  Since the depression is unconnected to other surface features, it is unclear where the internal material went. Inside Hebes Chasma is Hebes Mensa, a 5 kilometer high mesa that appears to have undergone an unusual partial collapse -- a collapse that might be providing clues. The featured image, taken by ESA's robotic Mars Express spacecraft currently orbiting Mars, shows great details of the chasm and the unusual horseshoe shaped indentation in the central mesa. Material from the mesa appears to have flowed onto the floor of the chasm, while a possible dark layer appears to have pooled like ink on a downslope landing.  A recent hypothesis holds that salty rock composes some lower layers in Hebes Chasma, with the salt dissolving in melted ice flows that drained through holes into an underground aquifer.",
+      "id": 71
+    },
+    {
+      "userId": "Team Chip",
+      "date": "2004-07-27",
+      "title": "Razorbacks in Endurance Crater",
+      "url": "https://apod.nasa.gov/apod/image/0407/razorback_merOpportunity_c1.jpg",
+      "explanation": "Over one year after its launch, robot geologist Opportunity has been spending recent sols on Mars inching its way down the slopes of Endurance crater. Littered with martian blueberries, some flat rocks within the crater also seem to have surprising razorbacks -- narrow slabs sticking up along their edges. Like the blueberries, it's possible that the sharp, narrow features are related to water. They could be formed by minerals deposited by water in cracks, with the surrounding softer material subsequently eroded away. How narrow are they? The ones pictured here in an enhanced color image from Opportunity's panoramic camera are actually only a few centimeters high and about half a centimeter wide. Impressive 3D views have been constructed by stereo experimenter P. Vantuyne based on the camera's left and right eye images of the region.",
+      "id": 72
     }
   ]
 }

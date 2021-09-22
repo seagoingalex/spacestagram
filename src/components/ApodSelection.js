@@ -42,7 +42,6 @@ function ApodSelection({ apodSelectionArray, onAddToProfileBtnClick, onDisselect
                                                     apodTitle = {apod.title}
                                                     apodImage={apod.url}
                                                     apodId={apod.date}
-                                                    // link={`/recruit/${hero.id}`}
                                                     linke={""}
                                                     hoverEffectDisabledId={"hoverEffectDisabledId"}
                                                     xsNum={xsNum}

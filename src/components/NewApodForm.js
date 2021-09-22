@@ -95,7 +95,7 @@ function NewApodForm({ currentProfile, isLoggedIn }) {
             <TextField id="outlined-basic" value={apodImage} onChange={handleApodImageInput} type="text" placeholder="Image URL"/> <br/>
             <TextField id="outlined-basic" value={apodExplanation} onChange={handleApodExplanationInput} type="text" placeholder="Tell us about your image"/> <br/>
         
-            <button type="submit" value="Add hero">Add Custom Favorite</button>
+            <button type="submit" value="Add favorite">Add Custom Favorite</button>
         </form>
     </div>
     <Popover
