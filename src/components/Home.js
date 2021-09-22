@@ -1,32 +1,24 @@
 import React from "react";
-import HeroSelection from "./HeroSelection"
-import RecruitList from "./RecruitList"
+import ApodSelection from "./ApodSelection"
+import NasaList from "./NasaList"
 
 
 
-function Home({ isLoadedHeroes, heroArray, displayArray, heroSelectionArray, onAddToTeamBtnClick, onDisselectBtnClickInSelection, heroArrayParse, setHeroArrayParse, currentTeam }) {
-
+function Home({ isLoadedImages, apodArray, apodSelectionArray, onAddToProfileBtnClick, onDisselectBtnClickInSelection, apodArrayParse, setApodArrayParse, currentProfile, nasaImage }) {
 
   return (
     <div className="HomeContainer">
       {
-        heroSelectionArray.length === 0 ?
-        <h1 className="home-h2">Please start selecting your heroes </h1>
+        apodSelectionArray.length === 0 ?
+        <h1 className="home-h2">Select a galactic image to learn more! </h1>
         :
-        
-        
-
-        <HeroSelection heroSelectionArray={heroSelectionArray}
-                       onAddToTeamBtnClick={onAddToTeamBtnClick}
+        <ApodSelection apodSelectionArray={apodSelectionArray}
+                       onAddToProfileBtnClick={onAddToProfileBtnClick}
                        onDisselectBtnClickInSelection={onDisselectBtnClickInSelection}
-                       currentTeam={currentTeam}
-                      
-                        />
-
+                       currentProfile={currentProfile}
+        />
       }
-        
-        <RecruitList isLoadedHeroes={isLoadedHeroes} heroArray={heroArray} heroArrayParse={heroArrayParse} setHeroArrayParse={setHeroArrayParse}/>
-
+        <NasaList isLoadedImages={isLoadedImages} apodArray={apodArray} apodArrayParse={apodArrayParse} setApodArrayParse={setApodArrayParse} nasaImage={nasaImage}/>
     </div>
   );
 }

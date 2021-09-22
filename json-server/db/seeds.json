@@ -1,34 +1,70 @@
 {
-  "heroes": [
+  "users": [
     {
       "id": 1,
-      "name": "Captain America",
-      "image": "https://static.wikia.nocookie.net/marveldatabase/images/b/b1/Captain_America_Vol_6_2_Textless.jpg/revision/latest/scale-to-width-down/658?cb=20110719042719"
+      "profileName": "Team Rocket"
     },
     {
-      "id": 2,
-      "name": "Iron Man",
-      "image": "https://static.wikia.nocookie.net/marveldatabase/images/0/0a/Iron_Man_Vol_6_1_Brooks_Variant_Textless.jpg/revision/latest/scale-to-width-down/666?cb=20210406033249"
+      "profileName": "Team Aqua",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Thor",
-      "image": "https://static.wikia.nocookie.net/marveldatabase/images/5/55/Thor_Odinson_%28Earth-616%29_from_Empyre_Vol_1_1_001.jpg/revision/latest/scale-to-width-down/650?cb=20200829210404"
+      "profileName": "Team Magma",
+      "id": 3
     },
     {
-      "id": 4,
-      "name": "Black Widow",
-      "image": "https://static.wikia.nocookie.net/marveldatabase/images/c/cb/Web_of_Black_Widow_Vol_1_4_Textless.jpg/revision/latest/scale-to-width-down/615?cb=20200101090440"
+      "profileName": "Team Galactic",
+      "id": 4
     },
     {
-      "id": 5,
-      "name": "The Incredible Hulk",
-      "image": "https://static.wikia.nocookie.net/marveldatabase/images/d/dc/Immortal_Hulk_20_Unknown_Comic_Books_Exclusive_Virgin_Variant.jpg/revision/latest/scale-to-width-down/656?cb=20190830071143"
+      "profileName": "Team Plasma",
+      "id": 5
     },
     {
-      "id": 6,
-      "name": "Hawkeye",
-      "image": "https://static.wikia.nocookie.net/marveldatabase/images/7/7e/Civil_War_II_Vol_1_3_Hawkeye_Variant_Textless.jpg/revision/latest/scale-to-width-down/660?cb=20160312004004"
+      "profileName": "Team Flare",
+      "id": 6
+    }
+  ],
+  "teamMember": [
+    {
+      "userId": "Team Rocket",
+      "date": "2021-09-02",
+      "title": "M51: The Whirlpool Galaxy",
+      "url": "https://apod.nasa.gov/apod/image/2109/M51-SL14-RGB-196-Final-cC_1024.png",
+      "explanation": "Find the Big Dipper and follow the handle away from the dipper's bowl until you get to the last bright star. Then, just slide your telescope a little south and west and you'll come upon this stunning pair of interacting galaxies, the 51st entry in Charles Messier's famous catalog. Perhaps the original spiral nebula, the large galaxy with well defined spiral structure is also cataloged as NGC 5194. Its spiral arms and dust lanes clearly sweep in front of its companion galaxy (top), NGC 5195. The pair are about 31 million light-years distant and officially lie within the angular boundaries of the small constellation Canes Venatici. Though M51 looks faint and fuzzy to the eye, deep images like this one reveal its striking colors and galactic tidal debris.",
+      "id": 1
+    },
+    {
+      "userId": "Team Aqua",
+      "date": "2021-09-06",
+      "title": "Firefly Milky Way over Russia",
+      "url": "https://apod.nasa.gov/apod/image/2109/FireFlyMilkyWay_Komlev_960.jpg",
+      "explanation": "It started with a pine tree. The idea was to photograph a statuesque pine in front of the central band of our Milky Way Galaxy. And the plan, carried out two months ago, was successful -- they both appear prominently. But the resulting 3-frame panorama captured much more. Colorful stars, for example, dot the distant background, with bright Altair visible on the upper left. The planet Saturn, a bit closer, was captured just over the horizon on the far left. Just beyond the Earth's atmosphere, seen in the upper right, an Earth-orbiting satellite was caught leaving a streak during the 25-second exposure. The Earth's atmosphere itself was surprisingly visible -- as green airglow across the image top. Finally, just by chance, there was a firefly. Do you see it? Near the image bottom, the firefly blinked in yellow several times as it fluttered before the rolling hills above Milogradovka River in Primorsky Krai, Russia.    Explore Your Universe: Random APOD Generator",
+      "id": 2
+    },
+    {
+      "userId": "Team Magma",
+      "date": "2021-09-15",
+      "title": "Cyclone Paths on Planet Earth",
+      "url": "https://apod.nasa.gov/apod/image/2109/StormPaths_NHC_1080.jpg",
+      "explanation": "Where on Earth do cyclones go? Usually known as hurricanes when in the Atlantic Ocean and typhoons when in the Pacific, the featured map shows the path of all major storms from 1985 through 2005.  The map shows graphically that cyclones usually occur over water, which makes sense since evaporating warm water gives them energy. The map also shows that cyclones never cross -- and rarely approach -- the Earth's equator, since the Coriolis effect goes to zero there, and cyclones need the Coriolis force to circulate. The Coriolis force also causes cyclone paths to arc away from the equator. Although long-term trends remain a topic of research, evidence indicates that hurricanes have become, on the average, more powerful in the North Atlantic over the past 30 years, and their power is projected to keep increasing.   Follow APOD on Instagram in: English, Farsi, Indonesian, Persian, or Portuguese",
+      "id": 3
+    },
+    {
+      "userId": "Team Galactic",
+      "date": "2007-01-04",
+      "title": "Central Cygnus",
+      "url": "https://apod.nasa.gov/apod/image/0701/gammacyg_parkercarboni720.jpg",
+      "explanation": "Supergiant star Gamma Cygni lies at the center of the Northern Cross, famous asterism in the constellation Cygnus the Swan. Known by the proper name Sadr, the bright star also lies at the center of this gorgeous skyscape, featuring a complex of stars, dust clouds, and glowing nebulae along the plane of our Milky Way galaxy. The field of view spans over 3 degrees (six Full Moons) on the sky and includes emission nebula IC 1318 and open star cluster NGC 6910. Left of Gamma Cyg and shaped like two glowing cosmic wings divided by a long dark dust lane, IC 1318's popular name is understandably the Butterfly Nebula. Above and left of Gamma Cyg, are the young, still tightly grouped stars of NGC 6910. Some distance estimates for Gamma Cyg place it at around 1,800 light-years while estimates for IC 1318 and NGC 6910 range from 2,000 to 5,000 light-years.",
+      "id": 4
+    },
+    {
+      "userId": "Team Plasma",
+      "date": "2014-07-10",
+      "title": "Noctilucent Clouds over London",
+      "url": "https://apod.nasa.gov/apod/image/1407/LondonNLC3Malin1024.jpg",
+      "explanation": "This scene from the early morning hours of July 3 looks out across the River Thames from the Westminster Bridge. Part of a luminous timelapse video (vimeo), the frame captures a sight familiar in London, the nighttime glow of the London Eye. But a not-so-familiar sight is shining in the still dark sky above, widespread noctilucent clouds. From the edge of space, about 80 kilometers above Earth's surface, the icy clouds can still reflect sunlight even though the Sun itself is below the horizon as seen from the ground. Usually spotted at high latitudes in summer months the diaphanous apparitions are also known as polar mesospheric clouds. The seasonal clouds are understood to form as water vapor driven into the cold upper atmosphere condenses on the fine dust particles supplied by disintegrating meteors or volcanic ash. NASA's AIM mission provides daily projections of the noctilucent clouds as seen from space.",
+      "id": 5
     }
   ]
 }

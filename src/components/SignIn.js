@@ -1,18 +1,10 @@
-//Have to run the 2 command below to make the page show poperly on your browser 
-//npm install @material-ui/core 
-//npm install @material-ui/icons
-
 import React, { useState } from 'react';
 import { useHistory, Link } from 'react-router-dom'
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
-// import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
@@ -32,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.secondary.main,
   },
   form: {
-    width: '100%', // Fix IE 11 issue.
+    width: '100%', 
     marginTop: theme.spacing(1),
   },
   submit: {
@@ -44,10 +36,10 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-function SignIn({ onExistingTeamLogIn }) {
+function SignIn({ onExistingProfileLogIn }) {
   const classes = useStyles();
 
-  const [enteredTeam, setEnteredTeam] = useState("")
+  const [enteredProfile, setEnteredProfile] = useState("")
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const history = useHistory()
@@ -55,32 +47,29 @@ function SignIn({ onExistingTeamLogIn }) {
   const open = Boolean(anchorEl);
   const id = open ? 'simple-popover' : undefined;
 
-  const verifyTeam = (e, users, addedTeam) => {
-    let allUsers = users.map(team => team.teamName)
-    let currentUser = addedTeam.teamName
+  const verifyProfile = (e, users, addedProfile) => {
+    let allUsers = users.map(profile => profile.profileName)
+    let currentUser = addedProfile.profileName
     if (allUsers.includes(currentUser)) {
-      onExistingTeamLogIn(currentUser)
+      onExistingProfileLogIn(currentUser)
       history.goBack()
     } else {
       setAnchorEl(e.target);
     }
   } 
 
-  const newTeamSubmit = (e) => {
+  const newProfileSubmit = (e) => {
     e.preventDefault();
-    const addedTeam = {
-      teamName: enteredTeam
+    const addedProfile = {
+      profileName: enteredProfile
     }
     fetch('http://localhost:3000/users')
     .then(response => response.json())
-    // .then(users => console.log(users))  
-    .then(users => verifyTeam(e, users, addedTeam))  
-    // onNewTeamSubmit(addedTeam)
-    // history.push("/team")
+    .then(users => verifyProfile(e, users, addedProfile))  
   }
 
-  const handleTeamName = (e) => {
-    setEnteredTeam(e.target.value)
+  const handleProfileName = (e) => {
+    setEnteredProfile(e.target.value)
   }
 
   const handleClose = () => {
@@ -98,35 +87,20 @@ function SignIn({ onExistingTeamLogIn }) {
         <Typography component="h1" variant="h3" className="black-font" >
           Sign in
         </Typography>
-        <form onSubmit={newTeamSubmit} className={classes.form} noValidate>
+        <form onSubmit={newProfileSubmit} className={classes.form} noValidate>
           <TextField
             variant="outlined"
             margin="normal"
             required
             fullWidth
             id="email"
-            label="Enter your existing team name"
+            label="Enter your existing profile name"
             name="email"
             autoComplete="email"
             autoFocus
-            onChange={handleTeamName}
-            value={enteredTeam}
+            onChange={handleProfileName}
+            value={enteredProfile}
           />
-          {/* <TextField
-            variant="outlined"
-            margin="normal"
-            required
-            fullWidth
-            name="password"
-            label="Password"
-            type="password"
-            id="password"
-            autoComplete="current-password"
-          />
-          <FormControlLabel
-            control={<Checkbox value="remember" color="primary" />}
-            label="Remember me"
-          /> */}
           <Button
             type="submit"
             fullWidth
@@ -134,17 +108,12 @@ function SignIn({ onExistingTeamLogIn }) {
             color="primary"
             className={classes.submit}
           >
-            GO BUILD MY TEAM
+            Go To Galactic Gallery
           </Button>
           <Grid container>
-            {/* <Grid item xs>
-              <Link href="#" variant="body2">
-                Forgot password?
-              </Link>
-            </Grid> */}
             <Grid item>
               <Link className="blue-font" to="/signup" variant="body2">
-                Don't have a team? Create one!
+                Don't have a profile? Create one!
               </Link>
             </Grid>
           </Grid>
@@ -165,7 +134,7 @@ function SignIn({ onExistingTeamLogIn }) {
           horizontal: 'center',
         }}
       >
-        <Typography className={classes.typography}>{enteredTeam} does not exist. Please try again.</Typography>
+        <Typography className={classes.typography}>{enteredProfile} does not exist. Please try again.</Typography>
       </Popover>
     </>
   );

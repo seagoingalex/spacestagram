@@ -3,12 +3,11 @@ import React from "react";
 // react-router-dom Imports
 import { Link, NavLink } from 'react-router-dom';
 
-function Header({ isLoggedIn, setLogIn, currentTeam }) {
+function Header({ isLoggedIn, setLogIn }) {
 
   const handleLogOut = () => {
     setLogIn(!isLoggedIn)
   }
-
 
   return (
    <nav className="header-container">
@@ -16,7 +15,7 @@ function Header({ isLoggedIn, setLogIn, currentTeam }) {
       <div className="header-left">
 
           <NavLink to="/" id="header-logo">
-          SUPERTEAM
+            SPACESTAGRAM
           </NavLink>
 
         <div className="navbar-container">
@@ -24,12 +23,12 @@ function Header({ isLoggedIn, setLogIn, currentTeam }) {
           Home
           </NavLink>
           {isLoggedIn ? 
-          <NavLink className="button" to="/team" exact activeStyle={{color: "#ffb199"}} style={{ textDecoration: 'none' }}>
-           Your Team
+          <NavLink className="button" to="/profile" exact activeStyle={{color: "#ffb199"}} style={{ textDecoration: 'none' }}>
+           Your Favorites
           </NavLink>
            : null }
-          <NavLink className="button" to="/addhero" exact activeStyle={{color: "#ffb199"}} style={{ textDecoration: 'none' }} >
-          Create Hero 
+          <NavLink className="button" to="/addfavorite" exact activeStyle={{color: "#ffb199"}} style={{ textDecoration: 'none' }} >
+          Add Custom Favorite
           </NavLink>
         </div>
       </div>

@@ -1,18 +1,10 @@
-//Have to run the 2 command below to make the page show poperly on your browser 
-//npm install @material-ui/core 
-//npm install @material-ui/icons
-
 import React, { useState, useEffect } from 'react';
 import { useHistory, Link } from 'react-router-dom';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
-// import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
@@ -31,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.secondary.main,
   },
   form: {
-    width: '100%', // Fix IE 11 issue.
+    width: '100%', 
     marginTop: theme.spacing(3),
   },
   submit: {
@@ -44,15 +36,15 @@ const useStyles = makeStyles((theme) => ({
   
 }));
 
-function SignUp({ onNewTeamSubmit }) {
+function SignUp({ onNewProfileSubmit }) {
   const classes = useStyles();
-  const [newTeam, setNewTeam] = useState("");
+  const [newProfile, setNewProfile] = useState("");
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const history = useHistory();
 
-  const handleNewTeam = (e) => {
-    setNewTeam(e.target.value)
+  const handleNewProfile = (e) => {
+    setNewProfile(e.target.value)
   }
 
   const [allUsers, setAllUsers] = useState([])
@@ -66,13 +58,13 @@ function SignUp({ onNewTeamSubmit }) {
   .then(user => setAllUsers(user))
   }, [])
 
-  const newTeamSubmit = (e) => {
+  const newProfileSubmit = (e) => {
     e.preventDefault();
-    const addedTeam = {
-      teamName: newTeam
+    const addedProfile = {
+      profileName: newProfile
     }
-    const userMap = allUsers.map(team => team.teamName)
-    if (userMap.includes(newTeam)) {
+    const userMap = allUsers.map(profile => profile.profileName)
+    if (userMap.includes(newProfile)) {
       setAnchorEl(e.target);
     } else {
       fetch('http://localhost:3000/users', {
@@ -81,9 +73,9 @@ function SignUp({ onNewTeamSubmit }) {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
       },
-      body: JSON.stringify(addedTeam)
+      body: JSON.stringify(addedProfile)
     })
-    onNewTeamSubmit(newTeam)
+    onNewProfileSubmit(newProfile)
     history.push("/")
     }
   }
@@ -103,7 +95,7 @@ function SignUp({ onNewTeamSubmit }) {
         <Typography component="h1" variant="h3" className="black-font">
           Sign up
         </Typography>
-        <form onSubmit={newTeamSubmit} className={classes.form} noValidate>
+        <form onSubmit={newProfileSubmit} className={classes.form} noValidate>
           <Grid container spacing={2}>
             <Grid item xs={12}>
               <TextField
@@ -113,34 +105,11 @@ function SignUp({ onNewTeamSubmit }) {
                 required
                 fullWidth
                 id="userName"
-                label="Create a name for your team here"
+                label="Create a name for your profile here"
                 autoFocus
-                onChange={handleNewTeam}
-              />{newTeam}
+                onChange={handleNewProfile}
+              />{newProfile}
             </Grid>
-            {/* <Grid item xs={12}>
-              <TextField
-                variant="outlined"
-                required
-                fullWidth
-                id="email"
-                label="Email Address"
-                name="email"
-                autoComplete="email"
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <TextField
-                variant="outlined"
-                required
-                fullWidth
-                name="password"
-                label="Password"
-                type="password"
-                id="password"
-                autoComplete="current-password"
-              />
-            </Grid> */}
           </Grid>
           <Button
             type="submit"
@@ -149,12 +118,12 @@ function SignUp({ onNewTeamSubmit }) {
             color="primary"
             className={classes.submit}
           >
-            Create Team!
+            Create Profile!
           </Button>
           <Grid container justify="flex-end">
             <Grid item>
               <Link className="blue-font" to="/signin" variant="body2">
-                Already have a team? Sign in
+                Already have a profile? Sign in
               </Link>
             </Grid>
           </Grid>
@@ -175,7 +144,7 @@ function SignUp({ onNewTeamSubmit }) {
           horizontal: 'center',
         }}
       >
-        <Typography className={classes.typography}>{newTeam} has already been selected. Please choose another name.</Typography>
+        <Typography className={classes.typography}>{newProfile} has already been selected. Please choose another name.</Typography>
       </Popover>
     </>
   );

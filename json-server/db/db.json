@@ -1,48 +1,12 @@
 {
   "users": [
     {
-      "id": 1,
-      "teamName": "The Avengers"
+      "profileName": "Team Chip",
+      "id": 12
     },
     {
-      "teamName": "The Defenders",
-      "id": 2
-    },
-    {
-      "teamName": "Guardians of the Galaxy",
-      "id": 3
-    },
-    {
-      "teamName": "The Coolest Kids in Town",
-      "id": 4
-    },
-    {
-      "teamName": "The Testing Team",
-      "id": 5
-    },
-    {
-      "teamName": "Suey",
-      "id": 6
-    },
-    {
-      "teamName": "New Team Test",
-      "id": 7
-    },
-    {
-      "teamName": "The Headband Homies",
-      "id": 8
-    },
-    {
-      "teamName": "AWWW KIMANNNNNNE",
-      "id": 9
-    },
-    {
-      "teamName": "Joan's Team",
-      "id": 10
-    },
-    {
-      "teamName": "Wolverines",
-      "id": 11
+      "profileName": "Team Nic",
+      "id": 13
     }
   ],
   "teamMember": [
@@ -323,6 +287,30 @@
       "image": "http://i.annihil.us/u/prod/marvel/i/mg/1/b0/5269678709fb7.jpg",
       "description": "",
       "id": 65
+    },
+    {
+      "userId": "Team Chip",
+      "date": "2003-12-13",
+      "title": "A Flock of Stars",
+      "url": "https://apod.nasa.gov/apod/image/0312/whitebirds640_rhopkins.jpg",
+      "explanation": "Only a few stars can be found within ten light-years of our lonely Sun, situated near an outer spiral arm of the Milky Way galaxy. But if the Sun were found within one of our galaxy's star clusters, thousands of stars might occupy a similar space. What would the night sky look like in such a densely packed stellar neighborhood? When Roger Hopkins took this picture at the Montezuma National Wildlife Refuge in the Finger Lakes region of western New York, USA, he was struck by this same notion. Appropriately, he had photographed a flock of starlings against the backdrop of a serene sunset. He then manipulated the image so that the black bird silhouettes were changed to white. The final picture dramatically suggests the tantalizing spectacle of approaching night in crowded skies above a cluster star world.",
+      "id": 66
+    },
+    {
+      "userId": "Team Nic",
+      "date": "2017-09-03",
+      "title": "A Waterspout in Florida",
+      "url": "https://apod.nasa.gov/apod/image/1709/waterspout_mole_960.jpg",
+      "explanation": "What's happening over the water?  Pictured here is one of the better images yet recorded of a waterspout, a type of tornado that occurs over water.  Waterspouts are spinning columns of rising moist air that typically form over warm water. Waterspouts can be as dangerous as tornadoes and can feature wind speeds over 200 kilometers per hour.  Some waterspouts form away from thunderstorms and even during relatively fair weather.  Waterspouts may be relatively transparent and initially visible only by an unusual pattern they create on the water.  The featured image was taken in 2013 July near Tampa Bay, Florida. The Atlantic Ocean off the coast of Florida is arguably the most active area in the world for waterspouts, with hundreds forming each year.  Some people speculate that waterspouts are responsible for some of the losses recorded in the Bermuda Triangle.",
+      "id": 67
+    },
+    {
+      "userId": "Team Chip",
+      "date": "2009-09-13",
+      "title": "The Holographic Principle",
+      "url": "https://apod.nasa.gov/apod/image/0909/teapotsirds_winfree.gif",
+      "explanation": "Is this picture worth a thousand words?  According to the Holographic Principle, the most information you can get from this image is about 3 x 1065 bits for a normal sized computer monitor.  The Holographic Principle, yet unproven, states that there is a maximum amount of information content held by regions adjacent to any surface.  Therefore, counter-intuitively, the information content inside a room depends not on the volume of the room but on the area of the bounding walls.  The principle derives from the idea that the Planck length, the length scale where quantum mechanics begins to dominate classical gravity, is one side of an area that can hold only about one bit of information.  The limit was first postulated by physicist Gerard 't Hooft in 1993.  It can arise from generalizations from seemingly distant speculation that the information held by a black hole is determined not by its enclosed volume but by the surface area of its event horizon.  The term \"holographic\" arises from a hologram analogy where three-dimension images are created by projecting light though a flat screen.  Beware, other people looking at the above image may not claim to see 3 x 1065 bits -- they might claim to see a teapot.   digg_url = 'http://apod.nasa.gov/apod/ap090913.html'; digg_skin = 'compact';",
+      "id": 68
     }
   ]
 }
